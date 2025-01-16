@@ -14,7 +14,7 @@ class SVGLoader extends HTMLElement{
             const template = document.createElement('template');
             template.innerHTML = svg;
             self.appendChild(template.content.cloneNode(true));
-        }).catch(error => { console.error("Error fetching or using SVG:", error); });
+        }).catch(error => { console.error("Error fetching src:", error); });
     }
 }
 customElements.define('svg-loader', SVGLoader);
