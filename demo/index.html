@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Loader Demo</title>
+    <link rel="stylesheet" href="style.css?v=2"> </head>
+    <script src="../svg-loader.js"></script> </body>
+<body>
+    <section class="buttons">
+        <button>
+            <svg-loader src="img/edit.svg"></svg-loader> 
+            Edit
+        </button>
+        <button>
+            <svg-loader src="img/eye.svg"></svg-loader> 
+            Preview
+        </button>
+        <button>
+            <svg-loader src="img/share.svg"></svg-loader> 
+            Share
+        </button>
+        <button>
+            <svg-loader src="img/settings.svg"></svg-loader> Settings
+        </button>
+    </section>
+    <section class="colors">
+        <input type="radio" name="color" value="1" checked>
+        <input type="radio" name="color" value="2">
+        <input type="radio" name="color" value="3">
+    </section>
+</body>
+<script src="app.js"></script> 
+</html>
