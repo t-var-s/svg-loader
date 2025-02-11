@@ -10,6 +10,12 @@ Use a `src` attribute to load that SVG file asynchronously. From the demo:
 ```html
 <svg-loader src="img/settings.svg"></svg-loader>
 ```
+You can just include something like:
+```html
+<script src="https://cdn.jsdelivr.net/gh/t-var-s/svg-loader/svg-loader.js"></script>
+```
+in the `<head>` of your page to use the `<svg-loader>` tag.
+
 
 *The demo uses four [Tabler Icons](https://github.com/tabler/tabler-icons) that are MIT licensed.*
 
